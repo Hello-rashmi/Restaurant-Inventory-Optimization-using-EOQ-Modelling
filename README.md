@@ -10,6 +10,9 @@ Understocking - stockouts, lost sales, dissatisfied customers
 
 This project builds a repeatable pipeline that answers, for every ingredient:  **how much should we order, how often, and at what stock level should we trigger the next order?**
 
+# Dataset
+https://www.kaggle.com/datasets/sujaldhanwani/restaurant-inventory-management-dataset-100-days?resource=download
+
 # Tools
 Python (Pandas, NumPy, Matplotlib, Seaborn)
 
@@ -33,3 +36,7 @@ Orders per year, cycle time, and total annual cost (purchase + ordering + holdin
 Eggs and Milk carry the highest annual demand and require the most frequent monitoring.
 Eggs have a notably high EOQ (~609 units/order) because their low unit price makes large batch orders cheap to hold a textbook EOQ economies-of-scale case.
 Mutton and Paneer, despite high unit prices, have small EOQs , ordering small and often minimizes holding cost on expensive perishables.
+
+# Reference
+https://www.researchgate.net/publication/395831188_Inventory_modelling_for_Restaurant's_Demand_and_supply_-_A_case_study_with_Reference_to_a_Hyderabad_Restaurant's
+
